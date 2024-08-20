@@ -1,0 +1,52 @@
+#tentang {
+  padding-top: 0rem;
+  font-family: 'Raleway' !important;
+  margin-bottom: 70px;
+}
+
+.title-fitur {
+  color: var(--neutral-0-c-0-c-0-c-neutral, #0C0C0C);
+  text-align: left;
+  font-family: 'Raleway' !important;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 28.18px;
+  letter-spacing: 0em;
+  margin-bottom: 0em;
+}
+
+.text-fitur {
+  color: var(--neutral-646464-neutral-100, #646464);
+  text-align: left;
+  font-family: 'Raleway' !important;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 0em;
+}
+
+.card-container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.custom-card {
+  width: 330px;
+  height: 10px; 
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  font-family: 'Raleway';
+}
+
+.custom-card-img {
+  width: 100%;
+  height: 45%;
+  object-fit: cover;
+  margin-top: 10px;
+}
+

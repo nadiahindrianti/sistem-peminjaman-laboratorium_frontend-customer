@@ -1,0 +1,72 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Raleway'!important;
+  }
+
+#hero {
+    width: 100%;
+    height: 80vh;
+}
+
+#hero .container {
+    padding-top: 72px;
+    width: Hug (1,255px);
+    height: Hug (547px);
+    top: 191px;
+    left: 120px;
+    gap: 32px;
+    font-family: 'Raleway'!important;
+}
+
+#hero h1 {
+    margin: 0 0 10px 0;
+    font-family: 'Raleway'!important;
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 96px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #4CAF50;
+}
+
+#hero h2 {
+    color: #1F1F1F;
+    margin-bottom: 15px;
+    font-family: 'Raleway'!important;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+#hero .learn-more {
+    width: Hug (208px);
+    height: Hug (47px);    
+    padding: 12px, 50px, 12px, 50px;
+    display: inline-block;
+    border-radius: 50px;
+    transition: 0.5s;
+    margin: 10px 0 0 0;
+    font-family: Raleway medium;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 23px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #ffffff;
+    padding: 6px 40px;
+    gap: 10px;
+    border-radius: 30px;
+    border: 1px solid var(--primary-f-4518-d, #7CBEFC);
+    margin-right: 10 px;
+    width: fit-content;
+    background-color: #7CBEFC;
+}
+
+#hero .learn-more:hover {
+    background: #7CBEFC;
+}
+

@@ -1,0 +1,169 @@
+
+
+/* Gaya untuk modal */
+#modal-Peminjaman, .modal-Peminjaman {
+  /* Atur properti untuk tampilan modal */
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5); /* Efek gelap pada latar belakang */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Gaya untuk konten modal */
+#modal-Peminjaman, .modal-content-Peminjaman {
+  /* Atur properti untuk kotak konten modal */
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+  width: 500px;
+  height: 95%;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+
+#modal-Peminjaman, .judul-Peminjaman {
+  text-align: left; /* Pusatkan teks */
+  margin-bottom: 20px; /* Jarak bawah */
+}
+
+
+#modal-Peminjaman, .judul-Peminjaman h1 {
+  font-size: 20px;
+  font-family: 'Poppins', sans-serif;
+  color: rgba(31, 31, 31, 1); /* Warna teks */
+  margin: 0; /* Hapus margin default */
+}
+
+
+#modal-Peminjaman, .form-group-Peminjaman {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+  width: 50%;
+  border: none;
+  box-shadow: 10px;
+  color: #1F1F1F;
+  font-family: 'Inter', sans-serif;
+  font-size: 18px;
+}
+
+#modal-Peminjaman, .form-group-Peminjaman label {
+  display: block;
+  margin-top: 0px;
+  margin-bottom: 5px;
+  font-family: 'Poppins', sans-serif;
+  font-size: 18px;
+}
+
+/* Sesuaikan dengan desain tombol close yang Anda inginkan */
+#btn-closePeminjaman {
+  /* Atur properti untuk tombol close */
+  cursor: pointer;
+  border: none;
+  background: none;
+  font-size: 20px;
+}
+
+
+
+
+/* Gaya untuk input teks dengan class 'np' */
+#modal-Peminjaman input.np {
+  /* Atur properti untuk input teks dengan class 'np' */
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  border-radius: 8px;
+  border: none;
+  background-color: rgba(239, 241, 249, 0.6);
+  color: #1F1F1F;
+  font-family: 'Inter', sans-serif;
+  font-size: 16px;
+}
+
+/* Gaya untuk input teks dengan class 'nk' */
+#modal-Peminjaman input.nk {
+  /* Atur properti untuk input teks dengan class 'nk' */
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  border: none;
+  border-radius: 8px;
+  background-color: rgba(239, 241, 249, 0.6);
+  color: #1F1F1F;
+  font-family: 'Inter', sans-serif;
+  font-size: 16px;
+}
+
+/* Gaya untuk input teks dengan class 'nu' */
+#modal-Peminjaman input.nu {
+  /* Atur properti untuk input teks dengan class 'nu' */
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  border-radius: 8px;
+  border: none;
+  background-color: rgba(239, 241, 249, 0.6);
+  color: #1F1F1F;
+  font-family: 'Inter', sans-serif;
+  font-size: 16px;
+}
+
+/* Gaya untuk input tanggal */
+#modal-konseling input[type='date'] {
+  /* Atur properti untuk input tanggal */
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  border: none;
+  border-radius: 8px;
+  background-color: rgba(239, 241, 249, 0.6);
+}
+
+/* Gaya untuk judul sesi */
+#modal-konseling, .sesi-title {
+  /* Atur properti untuk judul sesi */
+  margin-bottom: 10px;
+  font-size: 16px;
+  font-family: 'Poppins', 'sans-serif';
+  color: #1F1F1F;
+  margin-top: 5px;
+}
+
+
+/* Gaya untuk container tombol pada bagian akhir */
+#modal-konseling, .button-container {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 20px;
+}
+
+/* Gaya untuk tombol pada bagian akhir */
+#modal-konseling, .button-container button {
+  margin-left: 10px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+  gap: 10px;
+  font-size: 20px;
+  font-family: 'Inter', 'sans-serif';
+}
+
+/* Gaya untuk tombol 'Batalkan Konseling' */
+#modal-konseling, .button-container button:nth-child(1) {
+  background-color: #fff;
+  color:rgba(51, 132, 178, 0.86);
+  border: 1px solid rgba(51, 132, 178, 0.86);
+}
+
+/* Gaya untuk tombol 'Submit' */
+#modal-konseling, .button-container button:nth-child(2) {
+  background: rgba(51, 132, 178, 0.86);
+  color: #fff;
+}

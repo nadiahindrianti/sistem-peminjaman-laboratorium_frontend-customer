@@ -1,0 +1,108 @@
+.footer {
+  padding-top: 90px;
+  padding-bottom: 10px;
+  background: var(--gradient-grad-1, linear-gradient(180deg, #67b0d8 0%, #1e6185 26.78%, #0f567c 65.97%, #0b4d70 100%)),
+  url('../assets/MAIN LOGO WHITE (1).png') lightgray 50% / cover no-repeat;
+}
+
+
+.garis-ftr {
+  border: none;
+  border-top: 2px solid #F9F5F6; 
+}
+
+.footer__logo{
+  margin-left: 10px;
+  
+}
+
+.footer__logo img {
+  width: 40px;
+  margin-bottom: 5px;
+  display: inline-block;
+}
+
+.footer__logo h5 {
+  font-weight: 500px;
+  font-size: 32px;
+  margin-bottom: 20px;
+  font-family: 'Raleway' !important;
+  display: inline-block;
+  margin-left: 20px;
+  color: #F9F5F6;
+}
+
+.footer__logo p {
+  font-size: 16px;
+  color: #F9F5F6;
+  line-height: 24px;
+  font-family: 'Raleway'!important;
+}
+
+
+.footer__title {
+  font-size: 16px;
+  color: #F4518D;
+  font-weight: 600;
+  font-family: 'Raleway' !important;
+  margin-bottom: 20px;
+  
+}
+
+.footer__list{
+  font-family: 'Raleway'!important;
+  color: #F9F5F6;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 20px;
+  padding-bottom: 50px;
+  font-weight: 400;
+}
+
+.copyright {
+  font-family: 'Raleway';
+  color: #F9F5F6;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-top: -30px;
+  margin-bottom: 30px;
+}
+
+.copyright__text {
+  color: #F9F5F6;
+  font-family: 'Raleway';
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-top: -30px;
+  margin-bottom: 30px;
+}
+
+
+@media only screen and (max-width: 768px) {
+  .footer__title {
+    font-size: 0.8rem;
+  }
+
+}
+
+@media only screen and (max-width: 576px) {
+  .copyright__text {
+    text-align: center;
+  }
+
+  .social__links p {
+    font-size: 0.8rem;
+  }
+
+  .social__links span {
+    padding: 4px;
+  }
+  .social__links span a {
+    font-size: 0.7rem;
+  }
+}
